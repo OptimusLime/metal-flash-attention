@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DADABD8B2D15D5A6001B0861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADABBD22D15B3E1001B0861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADABD792D15D5A5001B0861;
+			remoteInfo = MacOSFlashAttentionTestHost;
+		};
+		DADABD952D15D5A6001B0861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADABBD22D15B3E1001B0861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADABD792D15D5A5001B0861;
+			remoteInfo = MacOSFlashAttentionTestHost;
+		};
+		DADABE192D15D75D001B0861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADABBD22D15B3E1001B0861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADABE082D15D75C001B0861;
+			remoteInfo = iOSFlashAttentionTestHost;
+		};
+		DADABE232D15D75D001B0861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADABBD22D15B3E1001B0861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADABE082D15D75C001B0861;
+			remoteInfo = iOSFlashAttentionTestHost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DADABD7A2D15D5A5001B0861 /* MacOSFlashAttentionTestHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSFlashAttentionTestHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADABD8A2D15D5A6001B0861 /* MacOSFlashAttentionTestHostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacOSFlashAttentionTestHostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADABD942D15D5A6001B0861 /* MacOSFlashAttentionTestHostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacOSFlashAttentionTestHostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADABE092D15D75C001B0861 /* iOSFlashAttentionTestHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFlashAttentionTestHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADABE182D15D75D001B0861 /* iOSFlashAttentionTestHostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFlashAttentionTestHostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADABE222D15D75D001B0861 /* iOSFlashAttentionTestHostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFlashAttentionTestHostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DADABBED2D15B3E2001B0861 /* FlashAttentionTestHostTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FlashAttentionTestHostTests;
+			sourceTree = "<group>";
+		};
+		DADABBF72D15B3E2001B0861 /* FlashAttentionTestHostUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FlashAttentionTestHostUITests;
+			sourceTree = "<group>";
+		};
+		DADABCAC2D15D109001B0861 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DADABD7B2D15D5A5001B0861 /* MacOSFlashAttentionTestHost */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacOSFlashAttentionTestHost;
+			sourceTree = "<group>";
+		};
+		DADABD8D2D15D5A6001B0861 /* MacOSFlashAttentionTestHostTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacOSFlashAttentionTestHostTests;
+			sourceTree = "<group>";
+		};
+		DADABD972D15D5A6001B0861 /* MacOSFlashAttentionTestHostUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacOSFlashAttentionTestHostUITests;
+			sourceTree = "<group>";
+		};
+		DADABE0A2D15D75C001B0861 /* iOSFlashAttentionTestHost */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iOSFlashAttentionTestHost;
+			sourceTree = "<group>";
+		};
+		DADABE1B2D15D75D001B0861 /* iOSFlashAttentionTestHostTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iOSFlashAttentionTestHostTests;
+			sourceTree = "<group>";
+		};
+		DADABE252D15D75D001B0861 /* iOSFlashAttentionTestHostUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iOSFlashAttentionTestHostUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADABD772D15D5A5001B0861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABD872D15D5A6001B0861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABD912D15D5A6001B0861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABE062D15D75C001B0861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABE152D15D75D001B0861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABE1F2D15D75D001B0861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADABBD12D15B3E1001B0861 = {
+			isa = PBXGroup;
+			children = (
+				DADABCAC2D15D109001B0861 /* Shared */,
+				DADABBED2D15B3E2001B0861 /* FlashAttentionTestHostTests */,
+				DADABBF72D15B3E2001B0861 /* FlashAttentionTestHostUITests */,
+				DADABD7B2D15D5A5001B0861 /* MacOSFlashAttentionTestHost */,
+				DADABD8D2D15D5A6001B0861 /* MacOSFlashAttentionTestHostTests */,
+				DADABD972D15D5A6001B0861 /* MacOSFlashAttentionTestHostUITests */,
+				DADABE0A2D15D75C001B0861 /* iOSFlashAttentionTestHost */,
+				DADABE1B2D15D75D001B0861 /* iOSFlashAttentionTestHostTests */,
+				DADABE252D15D75D001B0861 /* iOSFlashAttentionTestHostUITests */,
+				DADABBDB2D15B3E1001B0861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADABBDB2D15B3E1001B0861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADABD7A2D15D5A5001B0861 /* MacOSFlashAttentionTestHost.app */,
+				DADABD8A2D15D5A6001B0861 /* MacOSFlashAttentionTestHostTests.xctest */,
+				DADABD942D15D5A6001B0861 /* MacOSFlashAttentionTestHostUITests.xctest */,
+				DADABE092D15D75C001B0861 /* iOSFlashAttentionTestHost.app */,
+				DADABE182D15D75D001B0861 /* iOSFlashAttentionTestHostTests.xctest */,
+				DADABE222D15D75D001B0861 /* iOSFlashAttentionTestHostUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADABD792D15D5A5001B0861 /* MacOSFlashAttentionTestHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADABD9C2D15D5A6001B0861 /* Build configuration list for PBXNativeTarget "MacOSFlashAttentionTestHost" */;
+			buildPhases = (
+				DADABD762D15D5A5001B0861 /* Sources */,
+				DADABD772D15D5A5001B0861 /* Frameworks */,
+				DADABD782D15D5A5001B0861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DADABCAC2D15D109001B0861 /* Shared */,
+				DADABD7B2D15D5A5001B0861 /* MacOSFlashAttentionTestHost */,
+			);
+			name = MacOSFlashAttentionTestHost;
+			packageProductDependencies = (
+			);
+			productName = MacOSFlashAttentionTestHost;
+			productReference = DADABD7A2D15D5A5001B0861 /* MacOSFlashAttentionTestHost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADABD892D15D5A6001B0861 /* MacOSFlashAttentionTestHostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADABD9F2D15D5A6001B0861 /* Build configuration list for PBXNativeTarget "MacOSFlashAttentionTestHostTests" */;
+			buildPhases = (
+				DADABD862D15D5A6001B0861 /* Sources */,
+				DADABD872D15D5A6001B0861 /* Frameworks */,
+				DADABD882D15D5A6001B0861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADABD8C2D15D5A6001B0861 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DADABD8D2D15D5A6001B0861 /* MacOSFlashAttentionTestHostTests */,
+			);
+			name = MacOSFlashAttentionTestHostTests;
+			packageProductDependencies = (
+			);
+			productName = MacOSFlashAttentionTestHostTests;
+			productReference = DADABD8A2D15D5A6001B0861 /* MacOSFlashAttentionTestHostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DADABD932D15D5A6001B0861 /* MacOSFlashAttentionTestHostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADABDA22D15D5A6001B0861 /* Build configuration list for PBXNativeTarget "MacOSFlashAttentionTestHostUITests" */;
+			buildPhases = (
+				DADABD902D15D5A6001B0861 /* Sources */,
+				DADABD912D15D5A6001B0861 /* Frameworks */,
+				DADABD922D15D5A6001B0861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADABD962D15D5A6001B0861 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DADABD972D15D5A6001B0861 /* MacOSFlashAttentionTestHostUITests */,
+			);
+			name = MacOSFlashAttentionTestHostUITests;
+			packageProductDependencies = (
+			);
+			productName = MacOSFlashAttentionTestHostUITests;
+			productReference = DADABD942D15D5A6001B0861 /* MacOSFlashAttentionTestHostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DADABE082D15D75C001B0861 /* iOSFlashAttentionTestHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADABE2A2D15D75D001B0861 /* Build configuration list for PBXNativeTarget "iOSFlashAttentionTestHost" */;
+			buildPhases = (
+				DADABE052D15D75C001B0861 /* Sources */,
+				DADABE062D15D75C001B0861 /* Frameworks */,
+				DADABE072D15D75C001B0861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DADABCAC2D15D109001B0861 /* Shared */,
+				DADABE0A2D15D75C001B0861 /* iOSFlashAttentionTestHost */,
+			);
+			name = iOSFlashAttentionTestHost;
+			packageProductDependencies = (
+			);
+			productName = iOSFlashAttentionTestHost;
+			productReference = DADABE092D15D75C001B0861 /* iOSFlashAttentionTestHost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADABE172D15D75D001B0861 /* iOSFlashAttentionTestHostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADABE2D2D15D75D001B0861 /* Build configuration list for PBXNativeTarget "iOSFlashAttentionTestHostTests" */;
+			buildPhases = (
+				DADABE142D15D75D001B0861 /* Sources */,
+				DADABE152D15D75D001B0861 /* Frameworks */,
+				DADABE162D15D75D001B0861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADABE1A2D15D75D001B0861 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DADABE1B2D15D75D001B0861 /* iOSFlashAttentionTestHostTests */,
+			);
+			name = iOSFlashAttentionTestHostTests;
+			packageProductDependencies = (
+			);
+			productName = iOSFlashAttentionTestHostTests;
+			productReference = DADABE182D15D75D001B0861 /* iOSFlashAttentionTestHostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DADABE212D15D75D001B0861 /* iOSFlashAttentionTestHostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADABE302D15D75D001B0861 /* Build configuration list for PBXNativeTarget "iOSFlashAttentionTestHostUITests" */;
+			buildPhases = (
+				DADABE1E2D15D75D001B0861 /* Sources */,
+				DADABE1F2D15D75D001B0861 /* Frameworks */,
+				DADABE202D15D75D001B0861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADABE242D15D75D001B0861 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DADABE252D15D75D001B0861 /* iOSFlashAttentionTestHostUITests */,
+			);
+			name = iOSFlashAttentionTestHostUITests;
+			packageProductDependencies = (
+			);
+			productName = iOSFlashAttentionTestHostUITests;
+			productReference = DADABE222D15D75D001B0861 /* iOSFlashAttentionTestHostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADABBD22D15B3E1001B0861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DADABD792D15D5A5001B0861 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DADABD892D15D5A6001B0861 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DADABD792D15D5A5001B0861;
+					};
+					DADABD932D15D5A6001B0861 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DADABD792D15D5A5001B0861;
+					};
+					DADABE082D15D75C001B0861 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DADABE172D15D75D001B0861 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DADABE082D15D75C001B0861;
+					};
+					DADABE212D15D75D001B0861 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DADABE082D15D75C001B0861;
+					};
+				};
+			};
+			buildConfigurationList = DADABBD52D15B3E1001B0861 /* Build configuration list for PBXProject "FlashAttentionTestHost" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADABBD12D15B3E1001B0861;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DADABBDB2D15B3E1001B0861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADABD792D15D5A5001B0861 /* MacOSFlashAttentionTestHost */,
+				DADABD892D15D5A6001B0861 /* MacOSFlashAttentionTestHostTests */,
+				DADABD932D15D5A6001B0861 /* MacOSFlashAttentionTestHostUITests */,
+				DADABE082D15D75C001B0861 /* iOSFlashAttentionTestHost */,
+				DADABE172D15D75D001B0861 /* iOSFlashAttentionTestHostTests */,
+				DADABE212D15D75D001B0861 /* iOSFlashAttentionTestHostUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADABD782D15D5A5001B0861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABD882D15D5A6001B0861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABD922D15D5A6001B0861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABE072D15D75C001B0861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABE162D15D75D001B0861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABE202D15D75D001B0861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADABD762D15D5A5001B0861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABD862D15D5A6001B0861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABD902D15D5A6001B0861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABE052D15D75C001B0861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABE142D15D75D001B0861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABE1E2D15D75D001B0861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADABD8C2D15D5A6001B0861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADABD792D15D5A5001B0861 /* MacOSFlashAttentionTestHost */;
+			targetProxy = DADABD8B2D15D5A6001B0861 /* PBXContainerItemProxy */;
+		};
+		DADABD962D15D5A6001B0861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADABD792D15D5A5001B0861 /* MacOSFlashAttentionTestHost */;
+			targetProxy = DADABD952D15D5A6001B0861 /* PBXContainerItemProxy */;
+		};
+		DADABE1A2D15D75D001B0861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADABE082D15D75C001B0861 /* iOSFlashAttentionTestHost */;
+			targetProxy = DADABE192D15D75D001B0861 /* PBXContainerItemProxy */;
+		};
+		DADABE242D15D75D001B0861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADABE082D15D75C001B0861 /* iOSFlashAttentionTestHost */;
+			targetProxy = DADABE232D15D75D001B0861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DADABBFC2D15B3E2001B0861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADABBFD2D15B3E2001B0861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADABD9D2D15D5A6001B0861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacOSFlashAttentionTestHost/MacOSFlashAttentionTestHost.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOSFlashAttentionTestHost/Preview Content\"";
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Shared";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.MacOSFlashAttentionTestHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DADABD9E2D15D5A6001B0861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacOSFlashAttentionTestHost/MacOSFlashAttentionTestHost.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOSFlashAttentionTestHost/Preview Content\"";
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Shared";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.MacOSFlashAttentionTestHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DADABDA02D15D5A6001B0861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.MacOSFlashAttentionTestHostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOSFlashAttentionTestHost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOSFlashAttentionTestHost";
+			};
+			name = Debug;
+		};
+		DADABDA12D15D5A6001B0861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.MacOSFlashAttentionTestHostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOSFlashAttentionTestHost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOSFlashAttentionTestHost";
+			};
+			name = Release;
+		};
+		DADABDA32D15D5A6001B0861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.MacOSFlashAttentionTestHostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacOSFlashAttentionTestHost;
+			};
+			name = Debug;
+		};
+		DADABDA42D15D5A6001B0861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.MacOSFlashAttentionTestHostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacOSFlashAttentionTestHost;
+			};
+			name = Release;
+		};
+		DADABE2B2D15D75D001B0861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSFlashAttentionTestHost/Preview Content\"";
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.iOSFlashAttentionTestHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADABE2C2D15D75D001B0861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSFlashAttentionTestHost/Preview Content\"";
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.iOSFlashAttentionTestHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DADABE2E2D15D75D001B0861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.iOSFlashAttentionTestHostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSFlashAttentionTestHost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOSFlashAttentionTestHost";
+			};
+			name = Debug;
+		};
+		DADABE2F2D15D75D001B0861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.iOSFlashAttentionTestHostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSFlashAttentionTestHost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOSFlashAttentionTestHost";
+			};
+			name = Release;
+		};
+		DADABE312D15D75D001B0861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.iOSFlashAttentionTestHostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSFlashAttentionTestHost;
+			};
+			name = Debug;
+		};
+		DADABE322D15D75D001B0861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.atelico.iOSFlashAttentionTestHostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSFlashAttentionTestHost;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADABBD52D15B3E1001B0861 /* Build configuration list for PBXProject "FlashAttentionTestHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADABBFC2D15B3E2001B0861 /* Debug */,
+				DADABBFD2D15B3E2001B0861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADABD9C2D15D5A6001B0861 /* Build configuration list for PBXNativeTarget "MacOSFlashAttentionTestHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADABD9D2D15D5A6001B0861 /* Debug */,
+				DADABD9E2D15D5A6001B0861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADABD9F2D15D5A6001B0861 /* Build configuration list for PBXNativeTarget "MacOSFlashAttentionTestHostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADABDA02D15D5A6001B0861 /* Debug */,
+				DADABDA12D15D5A6001B0861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADABDA22D15D5A6001B0861 /* Build configuration list for PBXNativeTarget "MacOSFlashAttentionTestHostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADABDA32D15D5A6001B0861 /* Debug */,
+				DADABDA42D15D5A6001B0861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADABE2A2D15D75D001B0861 /* Build configuration list for PBXNativeTarget "iOSFlashAttentionTestHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADABE2B2D15D75D001B0861 /* Debug */,
+				DADABE2C2D15D75D001B0861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADABE2D2D15D75D001B0861 /* Build configuration list for PBXNativeTarget "iOSFlashAttentionTestHostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADABE2E2D15D75D001B0861 /* Debug */,
+				DADABE2F2D15D75D001B0861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADABE302D15D75D001B0861 /* Build configuration list for PBXNativeTarget "iOSFlashAttentionTestHostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADABE312D15D75D001B0861 /* Debug */,
+				DADABE322D15D75D001B0861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADABBD22D15B3E1001B0861 /* Project object */;
+}

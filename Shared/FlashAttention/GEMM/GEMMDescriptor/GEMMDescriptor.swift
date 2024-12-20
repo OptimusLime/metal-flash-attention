@@ -132,6 +132,9 @@ extension GEMMKernelDescriptor {
     // M4:     Apple M4 GPU -> M4
     func createDeviceName() -> String {
       let deviceName = mtlDevice.name
+      if deviceName.contains("simulator") {
+                return "SIM"
+      }
       var splits = deviceName.split(separator: " ").map(String.init)
       splits.removeAll(where: { $0.starts(with: "Apple") })
       splits.removeAll(where: { $0.starts(with: "GPU") })

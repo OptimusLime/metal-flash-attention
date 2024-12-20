@@ -1,4 +1,3 @@
-import FlashAttention
 import Metal
 
 extension MTLContext {
