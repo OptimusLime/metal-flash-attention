@@ -163,7 +163,7 @@ struct MobileContentView: View {
 
 #if os(macOS)
 struct DesktopContentView: View {
-    @State private var testResults = "No tests run yet"
+        @State private var testResults = "No tests run yet"
     @State private var isRunningTests = false
     @State private var selectedTest = 0
     @State private var testLogs: [TestLog] = []
@@ -197,6 +197,7 @@ struct DesktopContentView: View {
                         testLogs.removeAll()
                     }
                     .disabled(testLogs.isEmpty)
+                    
                 }
                 .padding()
                 
@@ -225,6 +226,27 @@ struct DesktopContentView: View {
             .frame(minWidth: 400)
         }
         .frame(minWidth: 700, minHeight: 400)
+    }
+    
+    private func findProjectDirectory() -> URL? {
+        // Start from the current bundle's URL
+        var currentURL = Bundle.main.bundleURL
+        
+        // Navigate up until we find the project directory
+        // (looking for the presence of the "Shared" directory as a marker)
+        for _ in 0..<10 { // Limit the search depth
+            let sharedURL = currentURL.appendingPathComponent("Shared")
+            var isDirectory: ObjCBool = false
+            
+            if FileManager.default.fileExists(atPath: sharedURL.path, 
+                                            isDirectory: &isDirectory) && isDirectory.boolValue {
+                return currentURL
+            }
+            
+            currentURL = currentURL.deletingLastPathComponent()
+        }
+        
+        return nil
     }
     
     private func runSelectedTest() {

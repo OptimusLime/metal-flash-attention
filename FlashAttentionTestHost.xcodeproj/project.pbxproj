@@ -37,6 +37,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DADABEE32D15E4C3001B0861 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DADABD7A2D15D5A5001B0861 /* MacOSFlashAttentionTestHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSFlashAttentionTestHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADABD8A2D15D5A6001B0861 /* MacOSFlashAttentionTestHostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacOSFlashAttentionTestHostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,7 @@
 		DADABE092D15D75C001B0861 /* iOSFlashAttentionTestHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFlashAttentionTestHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADABE182D15D75D001B0861 /* iOSFlashAttentionTestHostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFlashAttentionTestHostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADABE222D15D75D001B0861 /* iOSFlashAttentionTestHostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFlashAttentionTestHostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADABEE52D15E4C3001B0861 /* MetalGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MetalGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -92,6 +105,11 @@
 			path = iOSFlashAttentionTestHostUITests;
 			sourceTree = "<group>";
 		};
+		DADABEE62D15E4C3001B0861 /* MetalGenerator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetalGenerator;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +155,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DADABEE22D15E4C3001B0861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -152,6 +177,7 @@
 				DADABE0A2D15D75C001B0861 /* iOSFlashAttentionTestHost */,
 				DADABE1B2D15D75D001B0861 /* iOSFlashAttentionTestHostTests */,
 				DADABE252D15D75D001B0861 /* iOSFlashAttentionTestHostUITests */,
+				DADABEE62D15E4C3001B0861 /* MetalGenerator */,
 				DADABBDB2D15B3E1001B0861 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,6 +191,7 @@
 				DADABE092D15D75C001B0861 /* iOSFlashAttentionTestHost.app */,
 				DADABE182D15D75D001B0861 /* iOSFlashAttentionTestHostTests.xctest */,
 				DADABE222D15D75D001B0861 /* iOSFlashAttentionTestHostUITests.xctest */,
+				DADABEE52D15E4C3001B0861 /* MetalGenerator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,6 +337,29 @@
 			productReference = DADABE222D15D75D001B0861 /* iOSFlashAttentionTestHostUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		DADABEE42D15E4C3001B0861 /* MetalGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADABEE92D15E4C3001B0861 /* Build configuration list for PBXNativeTarget "MetalGenerator" */;
+			buildPhases = (
+				DADABEE12D15E4C3001B0861 /* Sources */,
+				DADABEE22D15E4C3001B0861 /* Frameworks */,
+				DADABEE32D15E4C3001B0861 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DADABCAC2D15D109001B0861 /* Shared */,
+				DADABEE62D15E4C3001B0861 /* MetalGenerator */,
+			);
+			name = MetalGenerator;
+			packageProductDependencies = (
+			);
+			productName = MetalGenerator;
+			productReference = DADABEE52D15E4C3001B0861 /* MetalGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -342,6 +392,9 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = DADABE082D15D75C001B0861;
 					};
+					DADABEE42D15E4C3001B0861 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = DADABBD52D15B3E1001B0861 /* Build configuration list for PBXProject "FlashAttentionTestHost" */;
@@ -366,6 +419,7 @@
 				DADABE082D15D75C001B0861 /* iOSFlashAttentionTestHost */,
 				DADABE172D15D75D001B0861 /* iOSFlashAttentionTestHostTests */,
 				DADABE212D15D75D001B0861 /* iOSFlashAttentionTestHostUITests */,
+				DADABEE42D15E4C3001B0861 /* MetalGenerator */,
 			);
 		};
 /* End PBXProject section */
@@ -452,6 +506,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DADABE1E2D15D75D001B0861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADABEE12D15E4C3001B0861 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -871,6 +932,32 @@
 			};
 			name = Release;
 		};
+		DADABEEA2D15E4C3001B0861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DADABEEB2D15E4C3001B0861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK7Y68NV2P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -933,6 +1020,15 @@
 			buildConfigurations = (
 				DADABE312D15D75D001B0861 /* Debug */,
 				DADABE322D15D75D001B0861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADABEE92D15E4C3001B0861 /* Build configuration list for PBXNativeTarget "MetalGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADABEEA2D15E4C3001B0861 /* Debug */,
+				DADABEEB2D15E4C3001B0861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
